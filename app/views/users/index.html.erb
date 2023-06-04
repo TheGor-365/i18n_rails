@@ -1,14 +1,16 @@
 <p style="color: green"><%= notice %></p>
 
-<h1>Users</h1>
+<h1 class="text-center mb-5">
+  <%= t('title', scope: 'users') %>
+</h1>
 
 <div id="users">
   <% @users.each do |user| %>
     <%= render user %>
     <p>
-      <%= link_to "Show this user", user %>
+      <%= link_to t('actions.show_user'), user, class: 'btn btn-sm btn-outline-dark my-3' %>
     </p>
   <% end %>
 </div>
 
-<%= link_to "New user", new_user_path %>
+<%= link_to t('actions.create_user'), new_user_path, class: 'btn btn-sm btn-outline-dark my-3' %>

@@ -1,3 +1,5 @@
 <h1 class="display-5 text-primary">
-  <span class="display-1 text-success">Wellcome</span> to users CRM
+  <span class="display-1 text-success"><%= t(:wellcome_word) %></span> <%= t(:wellcome_title) %>
 </h1>
+
+<%= link_to t('actions.all'), users_path, class: 'btn btn-sm btn-outline-dark my-3' %>

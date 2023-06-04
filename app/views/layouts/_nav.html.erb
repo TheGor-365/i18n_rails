@@ -16,13 +16,13 @@
     <div class="collapse navbar-collapse ms-5" id="navbarNav">
       <ul class="navbar-nav">
         <li class="nav-item">
-          <a class="nav-link active" aria-current="page" href="<%= root_path %>">Home</a>
+          <a class="nav-link active" aria-current="page" href="<%= root_path %>"><%= t('nav.home') %></a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="<%= users_path %>">Users</a>
+          <a class="nav-link" href="<%= users_path %>"><%= t('nav.users') %></a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="<%= new_user_path %>">Create user</a>
+          <a class="nav-link" href="<%= new_user_path %>"><%= t('nav.create_user') %></a>
         </li>
       </ul>
     </div>

@@ -18,5 +18,14 @@ module I18nRails
     #
     # config.time_zone = "Central Time (US & Canada)"
     # config.eager_load_paths << Rails.root.join("extras")
+
+    I18n.locale
+    I18n.load_path
+    I18n.backend
+    I18n.exception_handler
+    I18n.enforce_available_locales
+    # config.i18n.load_path += DIR[Rails.root.join('custom_locales', '*.{yml}')]
+    config.i18n.available_locales = [:en, :ru]
+    config.i18n.default_locale = :en
   end
 end

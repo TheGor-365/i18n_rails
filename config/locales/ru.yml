@@ -1,0 +1,21 @@
+ru:
+  users:
+    all: Все пользователи
+    first_name: Имя
+    last_name: Фамилия
+    title: Все пользователи
+  actions:
+    all: Все пользователи
+    create_user: Создать пользователя
+    show_user: Показать пользователя
+    destroy_user: Удалить пользователя
+    edit_user: Редактировать пользователя
+  nav:
+    home: Главная страница
+    users: Пользователи
+    create_user: Создать пользователя
+  titles:
+    new_user: Новый пользователь
+    edit_user: Редактирование пользователя
+  wellcome_word: Добро пожаловать
+  wellcome_title: в CRM для пользователей
