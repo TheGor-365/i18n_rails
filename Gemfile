@@ -17,6 +17,8 @@ gem "bootsnap", require: false
 gem "sassc-rails"
 gem "image_processing", "~> 1.2"
 gem 'simple_form'
+gem 'rails-i18n', '~> 7.0.0'
+gem 'i18n'
 
 # gem "kredis"
 # gem "bcrypt", "~> 3.1.7"

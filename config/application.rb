@@ -25,6 +25,8 @@ module I18nRails
     # I18n.exception_handler
     # I18n.enforce_available_locales
     # config.i18n.load_path += DIR[Rails.root.join('custom_locales', '*.{yml}')]
+
+    # config.i18n.backend = I18n::Backend::Chain.new(I18n::Backend::ActiveRecord.new, I18n.backend)
     config.i18n.available_locales = [:en, :ru]
     config.i18n.default_locale = :en
   end
