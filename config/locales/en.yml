@@ -10,6 +10,11 @@ en:
     show_user: Show user
     destroy_user: Destroy user
     edit_user: Edit user
+  time:
+    formats:
+      default: '%Y-%m-%d'
+      short: '%b %d'
+      long: '%B %d, %y'
   nav:
     home: Home
     users: Users

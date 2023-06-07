@@ -10,6 +10,11 @@ ru:
     show_user: Показать пользователя
     destroy_user: Удалить пользователя
     edit_user: Редактировать пользователя
+  time:
+    formats:
+      default: '%d-%m-%Y'
+      short: '%d %b'
+      long: '%d %B %y'
   nav:
     home: Главная страница
     users: Пользователи

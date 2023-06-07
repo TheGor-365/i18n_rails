@@ -3,5 +3,14 @@
 </h1>
 
 <%= link_to raw(t('actions.all_html', xss: @xss)), users_path, class: 'btn btn-sm btn-outline-dark my-3' %>
-
+<br>
 <%#= User.model_name.human(count: 2) %>
+<br>
+<%= l(Time.now, format: :long) %>
+<br>
+<%= (distance_of_time_in_words(Time.now)) %>
+<br>
+<%#= select_month %><br>
+<%#= datetime_select %><br>
+<%= number_to_currency(1) %><br>
+<%= number_to_percentage(1) %><br>
